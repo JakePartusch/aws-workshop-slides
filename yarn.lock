@@ -867,10 +867,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@jakepartusch/opi-mdx-theme@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@jakepartusch/opi-mdx-theme/-/opi-mdx-theme-0.0.4.tgz#65b03548d1f8c881c740ab7bb979f74b4d6ac7dd"
-  integrity sha512-R/0UNrZs5cm/cw8UtChmn2lGPgaZbTiF339VMh6E4YXeOvwISnrNK4qJ0G680LTbVuEEA8yJ7u/enyh+xDa8Qg==
+"@jakepartusch/opi-mdx-theme@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@jakepartusch/opi-mdx-theme/-/opi-mdx-theme-0.0.5.tgz#5e7f2441161dc9b94af339b320a250b1f91cba1d"
+  integrity sha512-6bo0s4xwR4tUYHuT8ysGAaStDAT0LE14QQJ+Y5XzumqXQ21jnL8iMkDNSsS8/VURkNQFgsQu1iWo+4uKwNa1Ng==
 
 "@mdx-deck/components@^2.2.1":
   version "2.2.1"
