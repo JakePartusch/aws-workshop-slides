@@ -5,8 +5,6 @@
   "license": "MIT",
   "scripts": {
     "build": "mdx-deck build deck.js --no-html && cp -r ./assets ./dist",
-    "postbuild": "npm run build:pdf",
-    "build:pdf": "mdx-deck pdf deck.js",
     "start": "mdx-deck deck.js"
   },
   "devDependencies": {
