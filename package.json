@@ -1,25 +1,21 @@
 {
-  "name": "@jakepartusch/chatbot-presentation",
+  "name": "@jakepartusch/aws-workshop-slides",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "mdx-deck build deck.js --no-html --webpack webpack.config.js && cp -r ./assets ./dist",
+    "build": "mdx-deck build deck.js --no-html && cp -r ./assets ./dist",
     "postbuild": "npm run build:pdf",
     "build:pdf": "mdx-deck pdf deck.js",
-    "start": "mdx-deck deck.js --webpack webpack.config.js"
+    "start": "mdx-deck deck.js"
   },
   "devDependencies": {
-    "css-loader": "^1.0.0",
-    "file-loader": "^2.0.0",
-    "mdx-deck": "^1.7.4",
-    "style-loader": "^0.23.0"
+    "mdx-deck": "2.2.1"
   },
   "dependencies": {
-    "mdx-deck-code-surfer": "^0.5.3",
-    "@jakepartusch/opi-mdx-theme": "^0.0.3",
-    "raw-loader": "^0.5.1",
-    "typeface-space-mono": "^0.0.54",
-    "typeface-spectral": "^0.0.54"
+    "@jakepartusch/opi-mdx-theme": "^0.0.4",
+    "styled-components": "^4.2.0",
+    "typeface-space-mono": "0.0.54",
+    "typeface-spectral": "0.0.54"
   }
 }

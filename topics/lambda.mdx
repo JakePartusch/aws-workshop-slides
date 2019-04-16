@@ -1,0 +1,45 @@
+import { Head } from 'mdx-deck'
+import { Invert, Split } from 'mdx-deck/layouts';
+import { FullScreenCode, Main, Section, SectionInverted } from '@jakepartusch/opi-mdx-theme'
+
+<Section>
+
+# How do we integrate the two?
+
+</Section>
+
+---
+
+<Section>
+
+# Lambda
+
+</Section>
+
+---
+
+<Section>
+
+> Lambda lets you run code without provisioning or managing servers.
+
+</Section>
+
+---
+
+![](https://media.giphy.com/media/a5viI92PAF89q/giphy.gif)
+
+---
+
+<FullScreenCode>
+
+```python
+def my_handler(event, context):
+    message = 'Hello {} {}!'.format(event['first_name'], 
+                                    event['last_name'])  
+    return { 
+        'message' : message
+    }  
+
+```
+
+</FullScreenCode>
