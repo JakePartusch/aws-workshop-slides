@@ -6,7 +6,11 @@ import { slides as lambda } from "./topics/lambda.mdx";
 import { slides as awsConclusion } from "./topics/aws-conclusion.mdx";
 import { slides as demo } from "./topics/demo.mdx";
 
-export { default as theme } from "@jakepartusch/opi-mdx-theme";
+import opiTheme from "@jakepartusch/opi-mdx-theme";
+import { syntaxHighlighter } from "mdx-deck/themes";
+
+export const themes = [syntaxHighlighter, opiTheme];
+
 export const slides = [
   ...intro,
   ...awsIntro,

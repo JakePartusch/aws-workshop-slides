@@ -11,9 +11,7 @@
     "mdx-deck": "2.2.1"
   },
   "dependencies": {
-    "@jakepartusch/opi-mdx-theme": "^0.0.5",
-    "styled-components": "^4.2.0",
-    "typeface-space-mono": "0.0.54",
-    "typeface-spectral": "0.0.54"
+    "@jakepartusch/opi-mdx-theme": "^1.0.0",
+    "styled-components": "^4.2.0"
   }
 }
