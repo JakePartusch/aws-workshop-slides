@@ -11,7 +11,7 @@
     "mdx-deck": "2.2.1"
   },
   "dependencies": {
-    "@jakepartusch/opi-mdx-theme": "^1.0.0",
+    "@jakepartusch/opi-mdx-theme": "^1.0.1",
     "styled-components": "^4.2.0"
   }
 }
