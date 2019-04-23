@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "mdx-deck build deck.js --no-html && cp -r ./assets ./dist",
+    "build": "mdx-deck build deck.js",
     "start": "mdx-deck deck.js"
   },
   "devDependencies": {
