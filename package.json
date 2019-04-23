@@ -8,6 +8,7 @@
     "start": "mdx-deck deck.js"
   },
   "devDependencies": {
+    "file-loader": "^3.0.1",
     "mdx-deck": "2.2.1"
   },
   "dependencies": {

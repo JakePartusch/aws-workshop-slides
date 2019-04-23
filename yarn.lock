@@ -867,10 +867,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@jakepartusch/opi-mdx-theme@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@jakepartusch/opi-mdx-theme/-/opi-mdx-theme-0.0.5.tgz#5e7f2441161dc9b94af339b320a250b1f91cba1d"
-  integrity sha512-6bo0s4xwR4tUYHuT8ysGAaStDAT0LE14QQJ+Y5XzumqXQ21jnL8iMkDNSsS8/VURkNQFgsQu1iWo+4uKwNa1Ng==
+"@jakepartusch/opi-mdx-theme@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@jakepartusch/opi-mdx-theme/-/opi-mdx-theme-1.0.1.tgz#d47c9dada382b18a803694715d868203ebe6e99a"
+  integrity sha512-1AflbxDaofriFiOZTg5qqZmOZn2B8v1TCTo3wio6U8EEUW12tXcPLsXPkKsUXXdM3D6WQikmhMFbW4EVHJOhzw==
 
 "@mdx-deck/components@^2.2.1":
   version "2.2.1"
@@ -2675,6 +2675,14 @@ figures@^2.0.0:
   integrity sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI=
   dependencies:
     escape-string-regexp "^1.0.5"
+
+file-loader@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-3.0.1.tgz#f8e0ba0b599918b51adfe45d66d1e771ad560faa"
+  integrity sha512-4sNIOXgtH/9WZq4NvlfU3Opn5ynUsqBwSLyM+I7UOwdGigTBYfVVQEwe/msZNX/j4pCJTIM14Fsw66Svo1oVrw==
+  dependencies:
+    loader-utils "^1.0.2"
+    schema-utils "^1.0.0"
 
 filesize@3.6.1:
   version "3.6.1"
@@ -5893,16 +5901,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-space-mono@0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-space-mono/-/typeface-space-mono-0.0.54.tgz#0dd2fa58e0a3f50f5d9c2f3bbbc6246f2cfacb82"
-  integrity sha512-9j0u+ipPxlvkKQZB1Dn1NOaacZ0m9gETfwd2ofhQls36tFK5bMNzS1bEurlCrE8LrrhnVZQwC7zhc3ZH0fnKBg==
-
-typeface-spectral@0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-spectral/-/typeface-spectral-0.0.54.tgz#1b851ad6e3e6da6a6a37e5ae54059a46f54a80b7"
-  integrity sha512-BrKVz17oNzVsOOWymgn4ZTIzRL6i63buodIN08bjmeYK+nQXltsPw3nvdxP86zJwmpHX7wPw+A0lKku1zxy9IA==
 
 ua-parser-js@^0.7.18:
   version "0.7.19"
