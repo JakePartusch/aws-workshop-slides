@@ -21,11 +21,10 @@ const TotalUsers = styled.div({
 const Leaderboard = () => {
   const [users, setUsers] = useState([]);
 
-  const fetchData = async () => {
-    const { data } = await axios.get(
-      "https://sg1xdt2fv7.execute-api.us-east-1.amazonaws.com/dev/quizzes"
-    );
-    setUsers(data);
+  const fetchData = () => {
+    axios
+      .get("https://sg1xdt2fv7.execute-api.us-east-1.amazonaws.com/dev/quizzes")
+      .then(({ data }) => setUsers(data));
   };
 
   useInterval(() => {
