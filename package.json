@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@jakepartusch/opi-mdx-theme": "^1.0.1",
+    "@use-it/interval": "^0.1.3",
+    "axios": "^0.18.0",
     "styled-components": "^4.2.0"
   }
 }
