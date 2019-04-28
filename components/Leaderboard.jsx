@@ -31,7 +31,7 @@ const Leaderboard = () => {
     fetchData();
   }, 3000);
 
-  const correctAnswers = ["A", "C", "B", "B", "D"];
+  const correctAnswers = ["A", "C", "C", "D", "D"];
 
   const usersWithScores = users.map(user => {
     const score = user.answers.reduce((total, answer, i) => {
