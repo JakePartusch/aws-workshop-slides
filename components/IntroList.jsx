@@ -33,7 +33,7 @@ const IntroList = () => (
     </ListItem>
     <ListItem>
       <Emoji>👨🏻‍💻</Emoji>
-      <ItemText>Principal Technologist</ItemText>
+      <ItemText>JavaScript Developer</ItemText>
     </ListItem>
     <ListItem>
       <SocialIcon
