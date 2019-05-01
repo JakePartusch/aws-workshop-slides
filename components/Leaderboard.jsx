@@ -35,10 +35,14 @@ const Leaderboard = () => {
 
   const usersWithScores = users.map(user => {
     const score = user.answers.reduce((total, answer, i) => {
-      const answerScore = answer === correctAnswers[i] ? 100 : 0;
+      const answerScore =
+        answer.toUpperCase() === correctAnswers[i].toUpperCase() ? 100 : 0;
       total += answerScore;
       return total;
     }, 0);
+    if (!score) {
+      return null;
+    }
     const timeScore = Math.max(
       100 -
         Math.round(
@@ -52,9 +56,9 @@ const Leaderboard = () => {
     };
   });
 
-  const sortedUsers = usersWithScores.sort((a, b) =>
-    a.score < b.score ? 1 : -1
-  );
+  const sortedUsers = usersWithScores
+    .filter(x => x)
+    .sort((a, b) => (a.score < b.score ? 1 : -1));
 
   const emojiMedals = ["🎉", "🥈", "🥉"];
 
